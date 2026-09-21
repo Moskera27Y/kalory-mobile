@@ -8,7 +8,8 @@
       "distribution": "internal",
       "developmentClient": true,
       "env": {
-        "EAS_BUILD_VCS_REMOTE_URL": "https://github.com/Moskera27Y/kalory-mobile.git"
+        "EAS_BUILD_VCS_REMOTE_URL": "https://github.com/Moskera27Y/kalory-mobile.git",
+        "GIT_REMOTE_URL": "https://github.com/Moskera27Y/kalory-mobile.git"
       },
       "android": {
         "gradleCommand": "assembleDebug",
