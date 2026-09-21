@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "developmentClient": true,
+      "android": {
+        "gradleCommand": "assembleDebug",
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": false,
+        "scheme": "kalory",
+        "buildConfiguration": "Debug"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": "assembleRelease",
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "simulator": false,
+        "scheme": "kalory",
+        "buildConfiguration": "Release"
+      }
+    },
+    "production": {
+      "android": {
+        "gradleCommand": "assembleRelease",
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "simulator": false,
+        "scheme": "kalory",
+        "buildConfiguration": "Release"
+      }
+    }
+  }
+}

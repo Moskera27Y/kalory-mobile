@@ -1,25 +1,35 @@
 {
   "expo": {
-    "name": "kalory-mobile",
-    "slug": "kalory-mobile",
+    "name": "Kalory",
+    "slug": "kalory",
     "version": "1.0.0",
+    "description": "Health & Fitness App with Premium Animations",
+    "sdkVersion": "57.0.0",
+    "userInterfaceStyle": "automatic",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/logo.jpg",
+    "splash": {
+      "image": "./assets/logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#E8F5E9"
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.kalory.app",
+      "supportsTablet": false
     },
     "android": {
+      "package": "com.kalory",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/logo.jpg",
+        "backgroundColor": "#E8F5E9"
       },
-      "predictiveBackGestureEnabled": false
+      "permissions": ["CAMERA"]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      "expo-camera",
+      "expo-haptics",
+      "expo-linear-gradient"
+    ]
   }
 }
