@@ -9,35 +9,21 @@
       "developmentClient": true,
       "android": {
         "gradleCommand": "assembleDebug",
-        "buildType": "apk"
-      },
-      "ios": {
-        "simulator": false,
-        "scheme": "kalory",
-        "buildConfiguration": "Debug"
+        "buildType": "apk",
+        "buildCommand": "npm run build"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
         "gradleCommand": "assembleRelease",
-        "buildType": "app-bundle"
-      },
-      "ios": {
-        "simulator": false,
-        "scheme": "kalory",
-        "buildConfiguration": "Release"
+        "buildType": "apk"
       }
     },
     "production": {
       "android": {
         "gradleCommand": "assembleRelease",
-        "buildType": "app-bundle"
-      },
-      "ios": {
-        "simulator": false,
-        "scheme": "kalory",
-        "buildConfiguration": "Release"
+        "buildType": "apk"
       }
     }
   }

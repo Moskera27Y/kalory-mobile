@@ -25,9 +25,6 @@
       },
       "permissions": ["CAMERA"]
     },
-    "plugins": [
-      "expo-haptics",
-      "expo-linear-gradient"
-    ]
+    "plugins": []
   }
 }
