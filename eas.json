@@ -9,8 +9,7 @@
       "developmentClient": true,
       "android": {
         "gradleCommand": "assembleDebug",
-        "buildType": "apk",
-        "buildCommand": "npm run build"
+        "buildType": "apk"
       }
     },
     "preview": {
