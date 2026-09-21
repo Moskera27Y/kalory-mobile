@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#E8F5E9"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bundleIdentifier": "com.kalory.app",
       "supportsTablet": false
@@ -23,8 +25,16 @@
         "foregroundImage": "./assets/logo.jpg",
         "backgroundColor": "#E8F5E9"
       },
-      "permissions": ["CAMERA"]
+      "permissions": [
+        "CAMERA"
+      ]
     },
-    "plugins": []
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "1022e957-2a86-4a58-8d89-f10aab784873"
+      }
+    },
+    "owner": "thekaladors-team"
   }
 }
