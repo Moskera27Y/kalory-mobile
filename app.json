@@ -3,7 +3,6 @@
     "name": "Kalory",
     "slug": "kalory",
     "version": "1.0.0",
-    "description": "Health & Fitness App with Premium Animations",
     "sdkVersion": "57.0.0",
     "userInterfaceStyle": "automatic",
     "orientation": "portrait",
